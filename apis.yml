@@ -1,8 +1,17 @@
 aid: endurosat
 name: EnduroSat
-description: 'EnduroSat is a company surfaced as a portfolio company of founders-fund, gv and added to
-  the API Evangelist network as a stub for enrichment. Sector: aerospace. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'EnduroSat is a Sofia, Bulgaria-based satellite manufacturer and space
+  service provider working to make space universally accessible by lowering the cost
+  and complexity of accessing space data. The company builds CubeSat and SmallSat
+  platforms (FRAME Max, FRAME L, FRAME S buses and 8U/12U/16U CubeSats), avionics
+  and communication modules (X-Band SDR, S-Band and UHF transceivers, EPS power modules,
+  solar panels, and antennas), and delivers end-to-end Space Service, SpaceOps, and
+  SpaceDev offerings that take customers from idea to orbit in roughly six months.
+  EnduroSat has deployed 100+ satellites with 3,500+ modules in operation, downlinked
+  500+ TB of data, and serves ~450 customers including NASA, ESA, and IBM Space. It
+  maintains an open-source GitHub organization publishing Cubesat Space Protocol (CSP)
+  implementations and NextGen ground-station and onboard API frameworks. Backed by
+  Founders Fund and GV.'
 url: https://raw.githubusercontent.com/api-evangelist/endurosat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.endurosat.com/wp-content/uploads/2025/01/3-We-covered-it-all-Satellite-assembly.webp
 tags:
 - Company
 - Aerospace
+- Space
+- Satellites
+- CubeSat
+- SmallSat
+- Nanosatellites
+- Ground Station
+- Space Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +52,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/endurosat-domain-security.yml
 - type: Website
   url: https://www.endurosat.com
+- type: Blog
+  url: https://www.endurosat.com/news/
+- type: GitHubOrganization
+  url: https://github.com/endurosat
+- type: Support
+  url: https://www.endurosat.com/contact/
+- type: TermsOfService
+  url: https://www.endurosat.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.endurosat.com/legal/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
