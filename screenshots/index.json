@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "endurosat",
+    "captured_at": "2026-10-11T185119",
+    "source_url": "https://www.endurosat.com",
+    "source_type": "Website",
+    "file": "endurosat-2026-10-11T185119.png",
+    "bytes": 69938,
+    "capture": "playwright-local"
+  }
+]
